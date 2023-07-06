@@ -26,7 +26,7 @@ require __DIR__.'/auth.php';
 
 
 
-Route::any('zayed', function(){
+Route::any('getout', function(){
     session()->invalidate();
     return redirect('/');
 });
